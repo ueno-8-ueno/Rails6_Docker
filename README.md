@@ -1,24 +1,16 @@
-# README
+# Rails6 on Docker with Makefile
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 環境構築(初回)
+```bash
+$ make init
+```
 
-Things you may want to cover:
+## コンテナ・Railsサーバー起動
+```bash
+$ make up
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## コンテナ・Railsサーバー停止
+```bash
+$ make stop
+```
